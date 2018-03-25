@@ -19,31 +19,11 @@
 #import "rocketbootstrap.h"
 #include <notify.h> // not required; for examples only
 
-@interface watchUtilsSB : NSObject
-
-- (void)watchUtilsTriggeredFromName:(NSString*)arg1 userInfo:(NSDictionary*)arg2;
-
-
-@end
-
-@implementation watchUtilsSB
-
--(id)init
-{
-	if ((self = [super init]))
-	{
-	}
-
-    return self;
-}
-
-@end
-
 // iOS 10
 @interface SBRestartManager : NSObject
 - (void)restartWithTransitionRequest:(id)arg1;
--(void)rebootWithContext:(id)arg1 ;
--(void)rebootForReason:(id)arg1 ;
+- (void)rebootWithContext:(id)arg1 ;
+- (void)rebootForReason:(id)arg1 ;
 
 @end
 
@@ -58,17 +38,17 @@
 @interface SpringBoard : UIApplication
 - (void)_relaunchSpringBoardNow;
 - (void)_tearDownNow;
-- (void)watchUtilsTriggered:(NSDictionary*)arg1;
+- (void)watchUtilsTriggeredFromName:(NSString*)arg1 userInfo:(NSDictionary*)arg2;
 - (void)qwertyuiop:(id)arg1 asdfghjkl:(id)arg2;
--(void)restartManagerWillReboot:(id)arg1 ;
-
+- (void)restartManagerWillReboot:(id)arg1 ;
 
 // iOS 10
 @property(readonly, nonatomic) SBRestartManager *restartManager;
 @end
 
-CHDeclareClass(SpringBoard);
 
+
+CHDeclareClass(SpringBoard);
 CHOptimizedMethod1(self, void, SpringBoard, applicationDidFinishLaunching, id, application)
 {
     CHSuper1(SpringBoard, applicationDidFinishLaunching, application);
@@ -77,13 +57,9 @@ CHOptimizedMethod1(self, void, SpringBoard, applicationDidFinishLaunching, id, a
     rocketbootstrap_distributedmessagingcenter_apply(c);
     [c runServerOnCurrentThread];
     [c registerForMessageName:@"triggered_utils" target:self selector:@selector(watchUtilsTriggeredFromName:userInfo:)];
-    //[c registerForMessageName:@"safemode" target:(SpringBoard*)[objc_getClass("UIApplication") sharedApplication] selector:@selector(qwertyuiop:asdfghjkl:)];
-    //[c registerForMessageName:@"reboot" target:self selector:@selector(watchUtilsTriggered:)];
 }
-
 CHOptimizedMethod2(new, void, SpringBoard, watchUtilsTriggeredFromName, NSString*, arg1, userInfo, NSDictionary*, arg2)
 {
-    NSLog(@"watchUtilsTriggeredFromName: %@ userInfo: %@", arg1, arg2);
     SpringBoard *springBoard = (SpringBoard *)[objc_getClass("UIApplication") sharedApplication];
     if ([arg2[@"command"] isEqualToString:@"respring"]){
         SBRestartTransitionRequest *request = [[objc_getClass("SBRestartTransitionRequest") alloc] initWithRequester:@"WatchUtils" reason:@"respring_triggered"];
