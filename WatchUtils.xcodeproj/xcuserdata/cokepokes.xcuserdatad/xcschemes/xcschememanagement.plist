@@ -7,17 +7,50 @@
 		<key>WatchUtils WatchKit App (Notification).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<key>WatchUtils WatchKit App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<key>WatchUtils.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+		<key>watchUtilsSB.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B50FBB872067698C00CD7905</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5B62B97206730C10078AC22</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5B62BAF206730C10078AC22</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5B62BBA206730C10078AC22</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5B62BC3206730C10078AC22</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

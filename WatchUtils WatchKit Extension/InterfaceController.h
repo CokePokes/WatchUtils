@@ -11,4 +11,8 @@
 
 @interface InterfaceController : WKInterfaceController
 
+- (IBAction)respringPressed:(id)sender;
+- (IBAction)rebootPressed:(id)sender;
+- (IBAction)safemodePressed:(id)sender;
+
 @end

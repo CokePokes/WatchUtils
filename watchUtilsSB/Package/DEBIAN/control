@@ -1,0 +1,17 @@
+Package: com.cokepokes.watchUtilsSB
+Name: Core WatchUtils
+Version: 0.1-1
+Description: This tweak is useless without the companion app found here https://gist.github.com/CokePokes/9ad9eb5578c94418f437b39475f75e2f
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.6)
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: CokePokes
+dev: 
+Homepage: https://gist.github.com/CokePokes/9ad9eb5578c94418f437b39475f75e2f
+Depiction: https://gist.github.com/CokePokes/9ad9eb5578c94418f437b39475f75e2f/b6ddb1801b4b72036f6cd492d51394a225bac89e
+Maintainer: CokePokes
+Icon: 
+

@@ -7,6 +7,7 @@
 //
 
 #import "ExtensionDelegate.h"
+#import <WatchConnectivity/WatchConnectivity.h>
 
 @implementation ExtensionDelegate
 

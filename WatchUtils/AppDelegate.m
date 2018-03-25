@@ -17,6 +17,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    if (![[NSFileManager defaultManager] fileExistsAtPath:@"/Library/MobileSubstrate/DynamicLibraries/watchUtilsSB.dylib"])
+    {
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            [[[UIAlertView alloc] initWithTitle:@"Installation Error!"
+                                        message:@"You do not have \"Core WatchUtils\" installed from CokePokes beta repo!\nWithout this package the app is not functional!"
+                                       delegate:nil
+                              cancelButtonTitle:@"Dismiss"
+                              otherButtonTitles:nil, nil]
+             show]; //I'll never understand why they deprecated UIAlertView :'(
+        });
+    }
     return YES;
 }
 

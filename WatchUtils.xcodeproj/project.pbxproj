@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50FBB892067698C00CD7905 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50FBB722067623000CD7905 /* Foundation.framework */; };
+		B50FBB912067698C00CD7905 /* watchUtilsSB.mm in Sources */ = {isa = PBXBuildFile; fileRef = B50FBB902067698C00CD7905 /* watchUtilsSB.mm */; };
+		B50FBBA02067736A00CD7905 /* librocketbootstrap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B50FBB9B2067736A00CD7905 /* librocketbootstrap.dylib */; };
+		B50FBBA12067736A00CD7905 /* rocketbootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = B50FBB9C2067736A00CD7905 /* rocketbootstrap.h */; };
+		B50FBBA22067736A00CD7905 /* CPDistributedMessagingCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = B50FBB9D2067736A00CD7905 /* CPDistributedMessagingCenter.h */; };
+		B50FBBA32067736A00CD7905 /* bootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = B50FBB9E2067736A00CD7905 /* bootstrap.h */; };
+		B50FBBB2206792C700CD7905 /* librocketbootstrap.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B50FBBAE206792C700CD7905 /* librocketbootstrap.dylib */; };
 		B5B62B9D206730C10078AC22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B62B9C206730C10078AC22 /* AppDelegate.m */; };
 		B5B62BA0206730C10078AC22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B62B9F206730C10078AC22 /* ViewController.m */; };
 		B5B62BA3206730C10078AC22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B62BA1206730C10078AC22 /* Main.storyboard */; };
@@ -23,6 +30,9 @@
 		B5B62BDD206730C10078AC22 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B62BDC206730C10078AC22 /* ExtensionDelegate.m */; };
 		B5B62BE0206730C10078AC22 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B62BDF206730C10078AC22 /* NotificationController.m */; };
 		B5B62BE2206730C10078AC22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B62BE1206730C10078AC22 /* Assets.xcassets */; };
+		B5B62BFA20673DF20078AC22 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B62BF920673DF20078AC22 /* WatchConnectivity.framework */; };
+		B5B62BFC20673E170078AC22 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B62BFB20673E170078AC22 /* WatchConnectivity.framework */; };
+		B5B62BFE20673E2E0078AC22 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B62BFD20673E2E0078AC22 /* WatchKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +92,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B50FBB722067623000CD7905 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B50FBB882067698C00CD7905 /* watchUtilsSB.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = watchUtilsSB.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50FBB8D2067698C00CD7905 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		B50FBB8F2067698C00CD7905 /* watchUtilsSB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "watchUtilsSB-Prefix.pch"; sourceTree = "<group>"; };
+		B50FBB902067698C00CD7905 /* watchUtilsSB.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = watchUtilsSB.mm; sourceTree = "<group>"; };
+		B50FBB952067698C00CD7905 /* watchUtilsSB.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = watchUtilsSB.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/watchUtilsSB.plist; sourceTree = "<group>"; };
+		B50FBB9B2067736A00CD7905 /* librocketbootstrap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = librocketbootstrap.dylib; sourceTree = "<group>"; };
+		B50FBB9C2067736A00CD7905 /* rocketbootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rocketbootstrap.h; sourceTree = "<group>"; };
+		B50FBB9D2067736A00CD7905 /* CPDistributedMessagingCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDistributedMessagingCenter.h; sourceTree = "<group>"; };
+		B50FBB9E2067736A00CD7905 /* bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bootstrap.h; sourceTree = "<group>"; };
+		B50FBBAE206792C700CD7905 /* librocketbootstrap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = librocketbootstrap.dylib; sourceTree = "<group>"; };
+		B50FBBAF206792C700CD7905 /* rocketbootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rocketbootstrap.h; sourceTree = "<group>"; };
+		B50FBBB0206792C700CD7905 /* CPDistributedMessagingCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDistributedMessagingCenter.h; sourceTree = "<group>"; };
+		B50FBBB1206792C700CD7905 /* bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bootstrap.h; sourceTree = "<group>"; };
 		B5B62B98206730C10078AC22 /* WatchUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B62B9B206730C10078AC22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B5B62B9C206730C10078AC22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -112,13 +136,28 @@
 		B5B62BE1206730C10078AC22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5B62BE3206730C10078AC22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5B62BE4206730C10078AC22 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		B5B62BF920673DF20078AC22 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		B5B62BFB20673E170078AC22 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.2.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		B5B62BFD20673E2E0078AC22 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B50FBB842067698C00CD7905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50FBB892067698C00CD7905 /* Foundation.framework in Frameworks */,
+				B50FBBA02067736A00CD7905 /* librocketbootstrap.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B5B62B95206730C10078AC22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50FBBB2206792C700CD7905 /* librocketbootstrap.dylib in Frameworks */,
+				B5B62BFE20673E2E0078AC22 /* WatchKit.framework in Frameworks */,
+				B5B62BFA20673DF20078AC22 /* WatchConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,12 +179,111 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B62BFC20673E170078AC22 /* WatchConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B50FBB8A2067698C00CD7905 /* watchUtilsSB */ = {
+			isa = PBXGroup;
+			children = (
+				B50FBB992067736A00CD7905 /* Additions */,
+				B50FBB902067698C00CD7905 /* watchUtilsSB.mm */,
+				B50FBB8B2067698C00CD7905 /* Package */,
+				B50FBB8E2067698C00CD7905 /* Supporting Files */,
+			);
+			path = watchUtilsSB;
+			sourceTree = "<group>";
+		};
+		B50FBB8B2067698C00CD7905 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				B50FBB8C2067698C00CD7905 /* DEBIAN */,
+				B50FBB922067698C00CD7905 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		B50FBB8C2067698C00CD7905 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				B50FBB8D2067698C00CD7905 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		B50FBB8E2067698C00CD7905 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B50FBB8F2067698C00CD7905 /* watchUtilsSB-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B50FBB922067698C00CD7905 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B50FBB932067698C00CD7905 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		B50FBB932067698C00CD7905 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				B50FBB942067698C00CD7905 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		B50FBB942067698C00CD7905 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				B50FBB952067698C00CD7905 /* watchUtilsSB.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		B50FBB992067736A00CD7905 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				B50FBB9A2067736A00CD7905 /* rocketbootstrap */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		B50FBB9A2067736A00CD7905 /* rocketbootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				B50FBB9B2067736A00CD7905 /* librocketbootstrap.dylib */,
+				B50FBB9C2067736A00CD7905 /* rocketbootstrap.h */,
+				B50FBB9D2067736A00CD7905 /* CPDistributedMessagingCenter.h */,
+				B50FBB9E2067736A00CD7905 /* bootstrap.h */,
+			);
+			path = rocketbootstrap;
+			sourceTree = "<group>";
+		};
+		B50FBBAC206792C700CD7905 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				B50FBBAD206792C700CD7905 /* rocketbootstrap */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		B50FBBAD206792C700CD7905 /* rocketbootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				B50FBBAE206792C700CD7905 /* librocketbootstrap.dylib */,
+				B50FBBAF206792C700CD7905 /* rocketbootstrap.h */,
+				B50FBBB0206792C700CD7905 /* CPDistributedMessagingCenter.h */,
+				B50FBBB1206792C700CD7905 /* bootstrap.h */,
+			);
+			path = rocketbootstrap;
+			sourceTree = "<group>";
+		};
 		B5B62B8F206730C10078AC22 = {
 			isa = PBXGroup;
 			children = (
@@ -154,7 +292,9 @@
 				B5B62BBE206730C10078AC22 /* WatchUtilsUITests */,
 				B5B62BC8206730C10078AC22 /* WatchUtils WatchKit App */,
 				B5B62BD7206730C10078AC22 /* WatchUtils WatchKit Extension */,
+				B50FBB8A2067698C00CD7905 /* watchUtilsSB */,
 				B5B62B99206730C10078AC22 /* Products */,
+				B5B62BF820673DF10078AC22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +306,7 @@
 				B5B62BBB206730C10078AC22 /* WatchUtilsUITests.xctest */,
 				B5B62BC4206730C10078AC22 /* WatchUtils WatchKit App.app */,
 				B5B62BD3206730C10078AC22 /* WatchUtils WatchKit Extension.appex */,
+				B50FBB882067698C00CD7905 /* watchUtilsSB.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,6 +314,7 @@
 		B5B62B9A206730C10078AC22 /* WatchUtils */ = {
 			isa = PBXGroup;
 			children = (
+				B50FBBAC206792C700CD7905 /* Additions */,
 				B5B62B9B206730C10078AC22 /* AppDelegate.h */,
 				B5B62B9C206730C10078AC22 /* AppDelegate.m */,
 				B5B62B9E206730C10078AC22 /* ViewController.h */,
@@ -230,9 +372,51 @@
 			path = "WatchUtils WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		B5B62BF820673DF10078AC22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5B62BFD20673E2E0078AC22 /* WatchKit.framework */,
+				B5B62BFB20673E170078AC22 /* WatchConnectivity.framework */,
+				B5B62BF920673DF20078AC22 /* WatchConnectivity.framework */,
+				B50FBB722067623000CD7905 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		B50FBB852067698C00CD7905 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50FBBA32067736A00CD7905 /* bootstrap.h in Headers */,
+				B50FBBA12067736A00CD7905 /* rocketbootstrap.h in Headers */,
+				B50FBBA22067736A00CD7905 /* CPDistributedMessagingCenter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		B50FBB872067698C00CD7905 /* watchUtilsSB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50FBB962067698C00CD7905 /* Build configuration list for PBXNativeTarget "watchUtilsSB" */;
+			buildPhases = (
+				B50FBB832067698C00CD7905 /* Sources */,
+				B50FBB842067698C00CD7905 /* Frameworks */,
+				B50FBB852067698C00CD7905 /* Headers */,
+				B50FBB862067698C00CD7905 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = watchUtilsSB;
+			productName = watchUtilsSB;
+			productReference = B50FBB882067698C00CD7905 /* watchUtilsSB.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
 		B5B62B97206730C10078AC22 /* WatchUtils */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5B62BEF206730C10078AC22 /* Build configuration list for PBXNativeTarget "WatchUtils" */;
@@ -331,6 +515,10 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = CokePokes;
 				TargetAttributes = {
+					B50FBB872067698C00CD7905 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					B5B62B97206730C10078AC22 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -373,6 +561,7 @@
 				B5B62BBA206730C10078AC22 /* WatchUtilsUITests */,
 				B5B62BC3206730C10078AC22 /* WatchUtils WatchKit App */,
 				B5B62BD2206730C10078AC22 /* WatchUtils WatchKit Extension */,
+				B50FBB872067698C00CD7905 /* watchUtilsSB */,
 			);
 		};
 /* End PBXProject section */
@@ -421,7 +610,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B50FBB862067698C00CD7905 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		B50FBB832067698C00CD7905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50FBB912067698C00CD7905 /* watchUtilsSB.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B5B62B94206730C10078AC22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -511,6 +724,95 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B50FBB972067698C00CD7905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUYLZA5X3V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "watchUtilsSB/watchUtilsSB-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+					"$(PROJECT_DIR)/watchUtilsSB/Additions/rocketbootstrap",
+				);
+				MonkeyDevBuildPackageOnAnyBuild = YES;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 10.0.0.176;
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"watchUtilsSB\\\"\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		B50FBB982067698C00CD7905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = AUYLZA5X3V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "watchUtilsSB/watchUtilsSB-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+					"$(PROJECT_DIR)/watchUtilsSB/Additions/rocketbootstrap",
+				);
+				MonkeyDevBuildPackageOnAnyBuild = YES;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = 10.0.0.176;
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"watchUtilsSB\\\"\"";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		B5B62BE5206730C10078AC22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -559,7 +861,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -608,7 +910,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -628,7 +930,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Debug;
 		};
@@ -645,7 +947,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Release;
 		};
@@ -662,7 +964,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Debug;
 		};
@@ -679,7 +981,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Release;
 		};
@@ -691,6 +993,12 @@
 				DEVELOPMENT_TEAM = AUYLZA5X3V;
 				INFOPLIST_FILE = WatchUtils/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/watchUtilsSB/Additions/rocketbootstrap",
+					"$(PROJECT_DIR)/WatchUtils/Additions/rocketbootstrap",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cokepokes.WatchUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -705,6 +1013,11 @@
 				DEVELOPMENT_TEAM = AUYLZA5X3V;
 				INFOPLIST_FILE = WatchUtils/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/watchUtilsSB/Additions/rocketbootstrap",
+					"$(PROJECT_DIR)/WatchUtils/Additions/rocketbootstrap",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cokepokes.WatchUtils;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -772,6 +1085,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B50FBB962067698C00CD7905 /* Build configuration list for PBXNativeTarget "watchUtilsSB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50FBB972067698C00CD7905 /* Debug */,
+				B50FBB982067698C00CD7905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B5B62B93206730C10078AC22 /* Build configuration list for PBXProject "WatchUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
